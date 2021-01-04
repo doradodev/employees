@@ -1,0 +1,12 @@
+.home-container {
+  display: grid;
+  grid-template: 100px 1fr / 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.home-search {
+  display: grid;
+  grid-template: 1fr / 500px 1fr;
+  grid-column-gap: 10px;
+  width: 50%;
+}
